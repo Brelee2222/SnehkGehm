@@ -1,0 +1,22 @@
+%% ONLY COMPATIBLE WITH LINUX
+
+This program runs Snake Game using a finite-state machine.
+
+To compile the program, enter the following command into terminal (with this folder as current directory):
+` make `
+
+To clear out the outputted files:
+` make clean `
+
+To run the program:
+` ./snakeGame `
+
+To run with score hidden:
+` ./snakeGame -hideScore `
+
+To get help:
+` ./snakeGame -h ` or ` ./snakeGame --help `
+
+When the program run, the game will immediately begin. Use the arrow keys or WASD to steer the snake. Collect apples to score points, and make sure not to go out of bounds or bump into yourself!
+
+Inside the makefile, character_spacing, and board_width can be changed for compilation. If the values are changed, run ` make clean `, then ` make ` to properly recompile. 
