@@ -1,4 +1,4 @@
-%% ONLY COMPATIBLE WITH LINUX
+%% DESIGNED FOR UNIX-LIKE OPERATING SYSTEMS
 
 This program runs Snake Game using a finite-state machine.
 
