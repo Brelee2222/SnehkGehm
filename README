@@ -19,4 +19,6 @@ To get help:
 
 When the program run, the game will immediately begin. Use the arrow keys or WASD to steer the snake. Collect apples to score points, and make sure not to go out of bounds or bump into yourself!
 
+Press 'q' at any time to quit.
+
 Inside the makefile, character_spacing, and board_width can be changed for compilation. If the values are changed, run ` make clean `, then ` make ` to properly recompile. 
